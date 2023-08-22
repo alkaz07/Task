@@ -18,6 +18,7 @@ public class Cat {
     public void move(int d)
     {
         System.out.println(name);
-        moveMethod.move(d);
+        if(moveMethod!= null)
+            moveMethod.move(d);
     }
 }
