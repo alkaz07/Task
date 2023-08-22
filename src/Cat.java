@@ -14,4 +14,10 @@ public class Cat {
     public String toString() {
         return "Cat{"  + name +   '}';
     }
+
+    public void move(int d)
+    {
+        System.out.println(name);
+        moveMethod.move(d);
+    }
 }
