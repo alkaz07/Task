@@ -10,8 +10,8 @@ public class Jumping implements IMove{
     public void move(int distance) {
         int k = distance/jLength;
         for (int i = 0; i < k; i++) {
-            System.out.println("прыг на "+jLength+" метров");
+            System.out.println("jump for "+jLength+" meters");
         }
-        System.out.println("прыг на "+distance%jLength+" метров");
+        System.out.println("jump for "+distance%jLength+" meters");
     }
 }
